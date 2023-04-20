@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "JWT Auth",
+    "slug": "jwt-auth",
+    "owner": "m0ngi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.test.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
