@@ -1,5 +1,7 @@
 # React Native JWT Login/Signup Example
 
+A simple example of JWT authentification using React Native with Expo written in TypeScript. Implements 2 navigation stacks, one for auth & an other for the main navigation (authorized).
+
 - Uses the following API: https://github.com/M0ngi/Nodejs-Express-JWT-auth
 - Uses [Expo Secure Store](https://www.npmjs.com/package/expo-secure-store) for storing JWT & User data.
 - Uses [React Query](https://tanstack.com/query/v3/) for creating API hooks.
